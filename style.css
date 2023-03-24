@@ -1,0 +1,292 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: aquamarine;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.row {
+    display: flex;
+}
+
+header {
+  background-color: #4ce1f4;
+  color: #fff;
+  padding: auto;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  font-size: 45px;
+  font-family: serif;
+  text-transform: uppercase;
+}
+
+header nav ul {
+margin-left: 25%;
+  font-size: 20px;
+  font-family: serif;
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+  color: rgb(141, 240, 233);
+}
+
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  font-family: serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#profil {
+  background-image: url("bgimg.png");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#profil h2 {
+  color: #fff;
+  font-size: 4rem;
+  font-family: serif;
+  margin-bottom: 20px;
+}
+
+#profil p {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 800px;
+}
+
+.title {
+  display: inline;
+}
+
+.title h2 {
+  margin-left: 34%;
+}
+
+.title p {
+  margin-left: 35%;
+}
+
+.title a {
+  margin-left: 300px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: serif;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: rgb(85, 225, 220);
+}
+
+.couleurbackground {
+    background-color: #5ee2dc;
+}
+
+.project {
+  margin-bottom: 40px;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.project img {
+  width: 300px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-family: serif;
+}
+
+.project p {
+  max-width: 500px;
+  margin-left:50px;
+  margin-right: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #3498db;
+}
+
+.navfooter {
+    margin-bottom: auto;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+/* la partie footer */
+
+.ulfooter {
+    list-style: none;
+}
+
+.ulcontact {
+ list-style-type: none;
+ font-family: serif;
+}
+/* css de la partie contact */
+.ccontact {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.ccontact h3 {
+  font-family: serif;
+  font-weight: bold;
+  font-size:25px;
+}
+
+.ccontact p {
+  font-family: serif;
+  font-size:20px;
+  font-style: oblique;
+}
+
+.fcontact {
+ margin-left: 100px;
+}
+
+/* css de la partie reference */
+
+.reference {
+  margin-bottom: 40px;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.reference img {
+  width: 300px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+.reference h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-family: serif;
+}
+
+.reference p {
+  max-width: 500px;
+  margin-left:50px;
+  margin-right: 50px;
+}
