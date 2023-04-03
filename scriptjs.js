@@ -1,3 +1,5 @@
+
+
 const btnToggle = document.querySelector(".btn-toggle");
 
 let valInit = 0;
@@ -36,10 +38,10 @@ btnToggle.addEventListener("click", () => {
 });
 
 //pour changer la couleur des elements statistique lorsque l'utilisateur passe le curseur decu
-const stats = document.getElementById('stats');
+const statistique = document.getElementById('stats');
 
-stats.addEventListener("mouseover", function () {
-  document.documentElement.setProperty('backgroundColor', 'orange')
+statistique.addEventListener("mouseover", function () {
+  $this.style.backgroundColor = "rgba(255,255,255)";
 });
 
 stats.addEventListener("mouseout", function () {
@@ -47,9 +49,9 @@ stats.addEventListener("mouseout", function () {
 });
 
 // pour telecharger le CV en pdf
-let telechargePdf = document.getElementById("telechargePdf");
+let loadPdf = document.getElementsByClassName("btn");
 
-telechargePdf.addEventListener("click", function () {
+loadPdf.addEventListener("click", function () {
   let lienPdf = "pdf/cv.pdf";
   window.open(lienPdf, "_blank");
 });

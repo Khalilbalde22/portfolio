@@ -20,8 +20,8 @@
       <nav>
         <ul>
           <li><a href="#accueil">Accueil</a></li>
-          <li><a href="#competances">Mes Competances</a></li>
-          <li><a href="#projects">Mes Projets</a></li>
+          <li><a href="#competances">Competances</a></li>
+          <li><a href="#projects">Projets</a></li>
           <li><a href="#references">References</a></li>
           <li><a href="#contact" id="btn-contact" class="btn">Contactez-moi</a></li>
         </ul>
@@ -36,7 +36,7 @@
         <h2>IBRAHIMA KHALIL BALDE</h2>
         <p>Je suis un développeur passionné et créatif avec une passion pour la création de solutions innovantes.</p>
 
-        <a class="btn"id="telechargePdf">Télécharger mon CV</a>
+        <a class="btn" href="pdf/cv.pdf" id="telechargePdf" download >Télécharger mon CV</a>
       </div>
     </div>
   </section>
@@ -219,7 +219,7 @@
   </footer>
 
   <!-- l'inclusion du fichier javaScript -->
-  <script src="script.js" defer></script>
+  <script src="scriptjs.js" defer></script>
 
 </body>
 
