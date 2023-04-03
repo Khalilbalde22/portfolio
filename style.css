@@ -38,7 +38,7 @@ header {
 header h1 {
   font-size: 2rem;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 35px;
   font-family: serif;
   text-transform: uppercase;
 }
@@ -235,7 +235,7 @@ textarea:focus {
   background-color: #3498db;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
@@ -346,9 +346,9 @@ footer a:hover {
   margin-top: -30px;
 }
 
-/* .stats:hover {
+.stats:hover {
   background-color:#2980b9;
-} */
+}
 
 .stats h2 {
   justify-content: center;
