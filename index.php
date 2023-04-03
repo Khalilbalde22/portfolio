@@ -131,7 +131,7 @@
         <h2>Références Professionnelles</h2>
         <div class="row">
           <div class="reference">
-            <img src="img/icon-client2.png" alt="Projet 1" />
+            <img src="img/elhadjbah.jpg" alt="Projet 1" />
             <h3>Elhadj Bah</h3>
             <p>PDG de SUIT<br>
               mail:elbahdara@gmail.com<br>
@@ -139,7 +139,7 @@
             </p>
           </div>
           <div class="reference">
-            <img src="img/icon-client2.png" alt="Projet 2" />
+            <img src="img/ousseynou.jpg" alt="Projet 2" />
             <h3>Ousseynou Diop</h3>
             <p>CEO de XARALA<br>
               mail:xarala@gmail.com<br>
